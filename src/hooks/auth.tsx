@@ -47,7 +47,7 @@ const AuthProvider: React.FC = ({ children }) => {
     localStorage.removeItem('@gobarber:token');
     localStorage.removeItem('@gobarber:user');
 
-    setData({});
+    setData({} as AuthState);
   }, []);
 
   return (
