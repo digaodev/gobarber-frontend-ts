@@ -7,7 +7,7 @@
 </h3>
 
 <h1 align="center">
-  <img alt="Logo" src="https://github.com/digaodev/gobarber-frontend-ts/blob/master/docs/login.svg?raw=true" width="300px">
+  <img alt="Login page" src="https://github.com/digaodev/gobarber-frontend-ts/blob/master/docs/login.png?raw=true" width="600px">
 </h1>
 
 <p align="center">A useful and intuitive way to manage your appointments</p>
@@ -55,7 +55,7 @@ These are the main techs used in this project:
 - Have the backend API running in order for this app to consume its data
 - If you haven't yet, go to [GoBarber API](https://github.com/digaodev/gobarber-backend-ts) and follow the instructions
 
-**Clone the project and access the folder**
+**Clone the project and access the project folder**
 
 ```bash
 $ git clone https://github.com/digaodev/gobarber-frontend-ts.git && cd gobarber-frontend-ts
