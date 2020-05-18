@@ -1,44 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="Logo" src="https://github.com/digaodev/gobarber-frontend-ts/blob/master/docs/logo.svg?raw=true" width="200px">
+</h1>
 
-## Available Scripts
+<h3 align="center">
+  React web application for the GoBarber project
+</h3>
 
-In the project directory, you can run:
+<h1 align="center">
+  <img alt="Logo" src="https://github.com/digaodev/gobarber-frontend-ts/blob/master/docs/login.svg?raw=true" width="300px">
+</h1>
 
-### `yarn start`
+<p align="center">A useful and intuitive way to manage your appointments</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/digaodev/gobarber-frontend-ts?color=%23FF9000">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <a href="https://www.linkedin.com/in/rodrigorb/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-digaodev-%23FF9000">
+  </a>
 
-### `yarn test`
+  <a href="https://github.com/digaodev/gobarber-frontend-ts/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/digaodev/gobarber-frontend-ts?color=%23FF9000">
+  </a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <a href="https://github.com/digaodev/gobarber-frontend-ts/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/digaodev/gobarber-frontend-ts?color=%23FF9000">
+  </a>
 
-### `yarn build`
+  <img alt="GitHub" src="https://img.shields.io/github/license/digaodev/gobarber-frontend-ts?color=%23FF9000">
+</p>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## About the project
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This repository contains the frontend web application for the GoBarber project, a way to organize appointments for barbers and their customers.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To see the **backend api**, go to [GoBarber API](https://github.com/digaodev/gobarber-backend-ts)<br />
 
-### `yarn eject`
+To see the **mobile app**, go to [GoBarber Mobile](https://github.com/digaodev/gobarber-mobile-ts)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Main Technologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+These are the main techs used in this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [React.js](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Unform](https://unform.dev/)
+- [Yup](https://github.com/jquense/yup)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+### Requirements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Have the backend API running in order for this app to consume its data
+- If you haven't yet, go to [GoBarber API](https://github.com/digaodev/gobarber-backend-ts) and follow the instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/digaodev/gobarber-frontend-ts.git && cd gobarber-frontend-ts
+```
+
+**Go through the following steps**
+
+```bash
+# Install the dependencies
+$ yarn
+
+# Run the app in dev mode
+$ yarn start
+
+# All done, hopefully the project is setup and running!
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made by [digaodev](https://www.linkedin.com/in/rodrigorb/)
