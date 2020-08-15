@@ -4,13 +4,17 @@ import { Switch, Route } from 'react-router-dom';
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
 import Dashboard from '../pages/Dashboard';
-// import Page404 from '../pages/Page404';
+import ForgotPassword from '../pages/ForgotPassword';
+import ResetPassword from '../pages/ResetPassword';
 
 import { useAuth } from '../hooks/auth';
 
 const UnauthenticatedRoutes: React.FC = () => (
   <Switch>
     <Route path="/signup" component={SignUp} />
+    <Route path="/signin" exact component={SignIn} />
+    <Route path="/forgot" exact component={ForgotPassword} />
+    <Route path="/reset-password" exact component={ResetPassword} />
     <Route path="/" exact component={SignIn} />
     <Route path="*" component={SignIn} />
   </Switch>
